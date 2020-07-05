@@ -1,0 +1,41 @@
+.modal{
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.modal-content{
+    width: 350px;
+    background-color:white;
+    margin: 11% auto;
+    text-align: center;
+    padding: 3rem;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: open;
+    animation-duration: 0.4s;
+}
+.modal-content h1{
+    font-size: 3rem;
+}
+.win{
+    color: greenyellow;
+}
+.lose{
+    color: red;
+}
+@keyframes open{
+    from{
+        opacity: 0;
+    };
+    to{
+        opacity: 1;
+    }
+}
+.modal-content .rock-modal{
+    font-size: 10rem;
+    margin-bottom: 1rem;
+}

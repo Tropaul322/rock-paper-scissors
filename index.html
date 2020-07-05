@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RPC</h1>
+            <button id="restart" class="restart">restart game</button>
+            <div class="score">
+                <p>Player: 0</p>
+                <p>Comp: 0</p>
+            </div>
+        </div>
+        <h2>Select:</h2>
+        <div class="choice">
+            <p id="rock" class="choices">✊</p>  
+            <p id="paper" class="choices">✋</p>  
+            <p id="scissors" class="choices">✌</p>  
+        </div>
+    </div>
+
+    <div class="modal">
+        <div id="result" class="modal-content">
+            <h1 class="win">You Win!!</h1>
+            <p class="rock-modal">✊</p> 
+            <p>Computer chose rock</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
